@@ -1,0 +1,51 @@
+
+/* Style for the Joke Generator container */
+.App {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+  max-width: 60%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the input field */
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style for the "Generate Joke" button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for error messages */
+.error {
+  color: #ff0000;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Style for the generated joke paragraph */
+p {
+  font-size: 18px;
+  margin-top: 10px;
+}
